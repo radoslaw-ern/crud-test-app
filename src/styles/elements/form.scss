@@ -1,0 +1,13 @@
+.v-field--disabled {
+  opacity: 1 !important;
+  
+  &.v-field--variant-filled .v-field__overlay {
+    background-color: #fff;
+  }
+
+  .v-field__outline {
+    &::before, &::after {
+      border-image: none !important;
+    }
+  }
+}
